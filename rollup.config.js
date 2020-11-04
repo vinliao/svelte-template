@@ -58,7 +58,8 @@ export default {
 		}),
 		commonjs(),
 		scss({
-			output: './public/global.css'
+			output: './public/global.css',
+			sass: require('sass')
 		}),
 
 		// In dev mode, call `npm run start` once
